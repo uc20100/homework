@@ -10,7 +10,19 @@
 9. git branch – выводит все ветки;
 10. git branch <имя ветки> - создание ветки;
 11. git branch -d <имя ветки> - удаление ветки;
-12. git merge <имя ветки> - слияние текущей ветки с указанной.
+12. git merge <имя ветки> - слияние текущей ветки с указанной;
+13. git clone <адрес на GitHub> - копирует репозиторий с GitHub на локальный компьютер;
+14. git remote add <origin – название переменной> <адрес каталога на GitHub>  -  в переменную (в данном случае origin) заносим адрес связанного (удаленного) репозитория;
+15. git remote – выводит список переменных связанных репозиториев;
+16. git remote remove <origin> – удаляет переменную <origin>;
+17. git branch -M main – переименование ветки master в main (-M - Shortcut for --move --force.) ;
+18. git branch -m <oldname> <newname> – переименование ветки;
+19. git branch -m <newname> - переименование текущей ветки;
+20. git push -u <origin> <vetka> – отправляем ветку на GitHub (после выполнения этой команды можно обновлять проект на GitHub с помощью команды git push);
+21. git push <origin> –all – отправка всех веток на GitHub;
+22. git pull <origin> <vetka> – обновить ветку с GitHub;
+23. git pull <origin> –all – обновить все ветки с GitHub.
+
 
 ![Git logo]( git_logo.png)
 
